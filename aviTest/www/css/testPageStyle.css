@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 7, 2014, 10:07:19 AM
+    Author     : Avi
+*/
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+#tabBar {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    margin-top: 10px;
+    -webkit-padding-start: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    list-style-type: none;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    border: 1px solid rgb(200, 200, 255);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.active {
+    list-style-type: none;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    border: 1px solid rgb(200, 200, 255);
+    cursor: pointer;
+}
+
+.green-line {
+    background-color: green;
+    height: 3px;
+    position: absolute;
+    display: none;
+    width: 0px; left: 0px; display: inline; overflow: hidden;
+    transition: all 0.5s;
+}
+
+#tabContent1 {
+    background-color: whitesmoke;
+    left:0px;
+    right:0px;
+    bottom: 8px;
+    margin-left: 0px;
+    margin-right:0px;
+    top: 65px;
+    position: absolute;
+    text-align: center;
+    transition: left 0.5s;
+}
+
+#tabContent2 {
+    background-color: black;
+    left:10000px;
+    right:0px;
+    bottom: 8px;
+    margin-left: 0px;
+    margin-right:0px;
+    top: 65px;
+    position: absolute;
+    text-align: center;
+    transition: left 0.5s;
+}
+
+#tabContent3 {
+    background-color: red;
+    left:10000px;
+    right:0px;
+    bottom: 8px;
+    margin-left: 0px;
+    margin-right:0px;
+    top: 65px;
+    position: absolute;
+    text-align: center;
+    transition: left 0.5s;
+}

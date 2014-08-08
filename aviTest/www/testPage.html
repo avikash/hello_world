@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Test Page</title>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link href="css/testPageStyle.css" rel="stylesheet" type="text/css"/>
+        <meta name="msapplication-tap-highlight" content="no" />
+    </head>
+    <body onload="pageload()"  style="background-color: black">
+        <div id="tabBar">
+            <ul>
+                <li id="l1" class="active" onclick="hover('l1',1)">Hello</li>
+                <li id="l2" onclick="hover('l2',2)">World</li>
+                <li id="l3" onclick="hover('l3',3)">Avikash</li>
+            </ul>
+            <span id="navSpan" class="green-line"></span>            
+        </div>
+        <div id="tabContent1">
+            <img src="btf1.jpg" alt="" style="max-width:100%; max-height:100%;"/>
+        </div>
+        <div id="tabContent2">
+            <img src="btf2.jpg" alt="" style="max-width:100%; max-height:100%;"/>
+        </div>
+        <div id="tabContent3">
+            <img src="btf3.jpg" alt="" style="max-width:100%; max-height:100%;"/>
+        </div>
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/test.js"></script>
+    </body>
+</html>
